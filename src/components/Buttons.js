@@ -54,19 +54,19 @@ export default class Buttons extends Component {
           <div className="col">
             <button type="button"
                   class="btn btn-secondary">
-                      <span>1</span>
+                      <span>4</span>
                   </button>
           </div>
           <div className="col">
             <button type="button"
                   class="btn btn-secondary">
-                      <span>1</span>
+                      <span>5</span>
                   </button>
           </div>
           <div className="col">
             <button type="button"
                   class="btn btn-secondary">
-                      <span>1</span>
+                      <span>6</span>
                   </button>
           </div>
           <div className="col">

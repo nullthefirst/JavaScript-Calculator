@@ -9,6 +9,15 @@ const caseIn = {
   marginBottom: "0.4em"
 }
 
+const solution = {
+  backgroundColor: "#000",
+  borderStyle: "solid",
+  borderColor: "#5d5d5d",
+  width: "10em",
+  display: "block",
+  padding: "1em"
+}
+
 export default class Buttons extends Component {
   render() {
     return(
@@ -60,7 +69,7 @@ export default class Buttons extends Component {
             <span>0</span>
           </div>
           <div className="col-6">
-            <span></span>
+            <span style={solution}></span>
           </div>
           <div className="col">
             <span>=</span>

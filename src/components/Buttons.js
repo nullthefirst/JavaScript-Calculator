@@ -5,20 +5,20 @@ import '../App.css';
 const caseIn = {
   textAlign: "center",
   borderStyle: "solid",
-  borderColor: "#24a2b7",
+  borderColor: "#5d5d5d",
   padding: "1em",
   width: "24em",
-  marginBottom: "0.4em"
+  marginBottom: "0.4em",
+  backgroundColor: "#fff",
 }
 
-// const solution = {
-//   backgroundColor: "#000",
-//   borderStyle: "solid",
-//   borderColor: "#5d5d5d",
-//   width: "10em",
-//   display: "block",
-//   padding: "1em"
-// }
+const solution = {
+  borderStyle: "solid",
+  borderColor: "#24a2b7",
+  width: "10em",
+  display: "block",
+  padding: "1em"
+}
 
 export default class Buttons extends Component {
   render() {
@@ -110,7 +110,7 @@ export default class Buttons extends Component {
                   </button>
           </div>
           <div className="col-6">
-            {/* <span style={solution}></span> */}
+            <span id="solut" style={solution}></span>
           </div>
           <div className="col">
             <button type="button"

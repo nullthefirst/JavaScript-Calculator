@@ -5,14 +5,16 @@ import Buttons from './Buttons';
 const caseOut = {
   textAlign: "center",
   borderStyle: "solid",
-  borderColor: "#3cb271",
+  borderColor: "#5d5d5d",
+  borderRadius: "2%",
+  backgroundColor: "#24a2b7",
   padding: "0.1em",
-  width: "26em",
+  width: "26em"
 }
 
 const name = {
-  textDecoration: "underline",
-  textDecorationColor: "#5d5d5d"
+  margin: "0.4em 0",
+  color: "#fff"
 }
 
 export default class Case extends Component {

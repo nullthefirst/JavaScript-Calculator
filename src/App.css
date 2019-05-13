@@ -25,12 +25,13 @@ body {
 @media all and (max-width: 601px) {
   .case-out {
     width: auto;
-    padding: 0.1em;
+    padding: 0.4em;
   }
   
   .case-in {
-    padding: 1em;
     width: auto;
+    display: block;
+    padding: 2.2em;
   }
   
   .btn {
@@ -38,11 +39,11 @@ body {
   }
 
   .solut {
-    width: 13.1em;
+    width: 8.8em;
+    display: block;
   }
 
   .btn-row {
     margin: 0.2em;
-    text-align: center;
   }
 }

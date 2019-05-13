@@ -13,7 +13,6 @@ const caseIn = {
 const solution = {
   borderStyle: "solid",
   borderColor: "#24a2b7",
-  display: "block",
   padding: "1em",
   backgroundColor: "#fff",
 }

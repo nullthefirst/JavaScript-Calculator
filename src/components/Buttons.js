@@ -132,7 +132,7 @@ export default class Buttons extends Component {
                       <span>=</span>
                   </button>
           </div>
-          <div className="col-xs-9 col-9">
+          <div className="col-xs-9 col-8">
             <span className="solut" id="display" style={solution}></span>
           </div>
         </div>

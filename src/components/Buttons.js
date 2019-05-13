@@ -27,13 +27,13 @@ export default class Buttons extends Component {
       <div style={caseIn} className="container-fluid">
         <div className="row">
           <div className="col">
-            <button type="button"
+            <button type="button" id="zero"
                   class="btn btn-secondary">
                       <span>1</span>
                   </button>
           </div>
           <div className="col">
-            <button type="button"
+            <button type="button" id="one"
                   class="btn btn-secondary">
                       <span>2</span>
                   </button>
@@ -114,7 +114,7 @@ export default class Buttons extends Component {
             <span id="solut" style={solution}></span>
           </div>
           <div className="col">
-            <button type="button"
+            <button type="button" id="equals"
                   class="btn btn-danger">
                       <span>=</span>
                   </button>

@@ -23,7 +23,21 @@ body {
 }
 
 @media all and (max-width: 601px) {
+  .case-out {
+    width: auto;
+    padding: 0.1em;
+  }
+  
+  .case-in {
+    padding: 1em;
+    width: auto;
+  }
+  
+  .btn {
+    margin: 0.4em;
+  }
+
   .solut {
-    width: 12em;
+    width: 13.1em;
   }
 }

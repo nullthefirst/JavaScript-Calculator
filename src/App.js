@@ -3,13 +3,13 @@ import ReactFCCtest from 'react-fcctest';
 import './App.css';
 
 // Components
-import Case from './components/Case';
+import Block from './components/Block';
 
 function App() {
   return (
     <div>
       <ReactFCCtest />
-      <Case />
+      <Block />
     </div>
   );
 }

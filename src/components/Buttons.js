@@ -96,7 +96,7 @@ export default class Buttons extends Component {
                   </button>
           </div>
           <div className="col">
-            <button type="button"
+            <button type="button" id="divide"
                   class="btn btn-info">
                       <span>&#247;</span>
                   </button>
@@ -122,7 +122,7 @@ export default class Buttons extends Component {
                   </button>
           </div>
           <div className="col">
-            <button type="button"
+            <button type="button" id="multiply"
                   class="btn btn-info">
                       <span>X</span>
                   </button>

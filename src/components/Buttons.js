@@ -11,14 +11,14 @@ const caseIn = {
   marginBottom: "0.4em"
 }
 
-const solution = {
-  backgroundColor: "#000",
-  borderStyle: "solid",
-  borderColor: "#5d5d5d",
-  width: "10em",
-  display: "block",
-  padding: "1em"
-}
+// const solution = {
+//   backgroundColor: "#000",
+//   borderStyle: "solid",
+//   borderColor: "#5d5d5d",
+//   width: "10em",
+//   display: "block",
+//   padding: "1em"
+// }
 
 export default class Buttons extends Component {
   render() {
@@ -26,55 +26,97 @@ export default class Buttons extends Component {
       <div style={caseIn} className="container-fluid">
         <div className="row">
           <div className="col">
-            <span >1</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
           <div className="col">
-            <span >2</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
           <div className="col">
-            <span >3</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
           <div className="col">
-            <span>+</span>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <span >4</span>
-          </div>
-          <div className="col">
-            <span >5</span>
-          </div>
-          <div className="col">
-            <span >6</span>
-          </div>
-          <div className="col">
-            <span>-</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
         </div>
         <div className="row">
           <div className="col">
-            <span >7</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
           <div className="col">
-            <span >8</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
           <div className="col">
-            <span >9</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
           <div className="col">
-            <span>&#247;</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
         </div>
         <div className="row">
           <div className="col">
-            <span id="zero">0</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
+          </div>
+          <div className="col">
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
+          </div>
+          <div className="col">
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
+          </div>
+          <div className="col">
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>&#247;</span>
+                  </button>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
           <div className="col-6">
-            <span style={solution}></span>
+            {/* <span style={solution}></span> */}
           </div>
           <div className="col">
-            <span >=</span>
+            <button type="button"
+                  class="btn btn-secondary">
+                      <span>1</span>
+                  </button>
           </div>
         </div>
       </div>

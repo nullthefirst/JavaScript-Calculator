@@ -27,25 +27,25 @@ export default class Buttons extends Component {
       <div style={caseIn} className="container-fluid">
         <div className="row">
           <div className="col">
-            <button type="button" id="zero"
+            <button type="button" id="one"
                   class="btn btn-secondary">
                       <span>1</span>
                   </button>
           </div>
           <div className="col">
-            <button type="button" id="one"
+            <button type="button" id="two"
                   class="btn btn-secondary">
                       <span>2</span>
                   </button>
           </div>
           <div className="col">
-            <button type="button" id="two"
+            <button type="button" id="three"
                   class="btn btn-secondary">
                       <span>3</span>
                   </button>
           </div>
           <div className="col">
-            <button type="button" id="three"
+            <button type="button"
                   class="btn btn-info">
                       <span>+</span>
                   </button>
@@ -105,7 +105,7 @@ export default class Buttons extends Component {
         </div>
         <div className="row">
           <div className="col">
-            <button type="button"
+            <button type="button" id="zero"
                   class="btn btn-secondary">
                       <span>0</span>
                   </button>

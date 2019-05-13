@@ -40,4 +40,9 @@ body {
   .solut {
     width: 13.1em;
   }
+
+  .btn-row {
+    margin: 0.2em;
+    text-align: center;
+  }
 }

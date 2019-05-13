@@ -9,7 +9,7 @@ const caseIn = {
   padding: "1em",
   width: "24em",
   marginBottom: "0.4em",
-  backgroundColor: "#fff",
+  backgroundColor: "#f3f2e0",
 }
 
 const solution = {
@@ -17,7 +17,8 @@ const solution = {
   borderColor: "#24a2b7",
   width: "10em",
   display: "block",
-  padding: "1em"
+  padding: "1em",
+  backgroundColor: "#fff",
 }
 
 export default class Buttons extends Component {

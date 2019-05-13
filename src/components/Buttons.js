@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../App.css';
+
 const caseIn = {
   textAlign: "center",
   borderStyle: "solid",
@@ -18,13 +20,17 @@ const solution = {
   padding: "1em"
 }
 
+const btn = {
+  margin: "1em"
+}
+
 export default class Buttons extends Component {
   render() {
     return(
       <div style={caseIn} className="container-fluid">
         <div className="row">
           <div className="col">
-            <span>1</span>
+            <span style={btn}>1</span>
           </div>
           <div className="col">
             <span>2</span>

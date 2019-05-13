@@ -14,6 +14,7 @@ export default class Buttons extends Component {
           <div className="col">
             <span>3</span>
           </div>
+          <div className="col">+</div>
         </div>
         <div className="row">
           <div className="col">
@@ -25,6 +26,7 @@ export default class Buttons extends Component {
           <div className="col">
             <span>6</span>
           </div>
+          <div className="col">-</div>
         </div>
         <div className="row">
           <div className="col">
@@ -36,6 +38,7 @@ export default class Buttons extends Component {
           <div className="col">
             <span>9</span>
           </div>
+          <div className="col">&#247;</div>
         </div>
       </div>
     )

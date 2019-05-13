@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Buttons from './Buttons';
+
 const caseOut = {
   textAlign: "center",
   borderStyle: "solid",
@@ -18,6 +20,7 @@ export default class Case extends Component {
     return(
       <div style={caseOut}>
         <h2 style={name}>JS Calculator</h2>
+        <Buttons />
       </div>
     );
   }

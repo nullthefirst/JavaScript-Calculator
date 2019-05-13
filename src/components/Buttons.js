@@ -15,7 +15,6 @@ const caseIn = {
 const solution = {
   borderStyle: "solid",
   borderColor: "#24a2b7",
-  width: "10em",
   display: "block",
   padding: "1em",
   backgroundColor: "#fff",
@@ -110,14 +109,16 @@ export default class Buttons extends Component {
                       <span>0</span>
                   </button>
           </div>
-          <div className="col-6">
-            <span id="solut" style={solution}></span>
-          </div>
           <div className="col">
             <button type="button" id="equals"
                   class="btn btn-danger">
                       <span>=</span>
                   </button>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <span id="solut" style={solution}></span>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import '../App.css';
 const caseIn = {
   textAlign: "center",
   borderStyle: "solid",
-  borderColor: "#3cb271",
+  borderColor: "#24a2b7",
   padding: "1em",
   width: "24em",
   marginBottom: "0.4em"
@@ -45,7 +45,7 @@ export default class Buttons extends Component {
           </div>
           <div className="col">
             <button type="button"
-                  class="btn btn-secondary">
+                  class="btn btn-info">
                       <span>+</span>
                   </button>
           </div>
@@ -71,7 +71,7 @@ export default class Buttons extends Component {
           </div>
           <div className="col">
             <button type="button"
-                  class="btn btn-secondary">
+                  class="btn btn-info">
                       <span>-</span>
                   </button>
           </div>
@@ -97,7 +97,7 @@ export default class Buttons extends Component {
           </div>
           <div className="col">
             <button type="button"
-                  class="btn btn-secondary">
+                  class="btn btn-info">
                       <span>&#247;</span>
                   </button>
           </div>
@@ -114,7 +114,7 @@ export default class Buttons extends Component {
           </div>
           <div className="col">
             <button type="button"
-                  class="btn btn-secondary">
+                  class="btn btn-danger">
                       <span>=</span>
                   </button>
           </div>

@@ -110,13 +110,13 @@ export default class Buttons extends Component {
                   </button>
           </div>
           <div className="col">
-            <button type="button"
+            <button type="button" id="decimal"
                   class="btn btn-secondary">
                       <span>.</span>
                   </button>
           </div>
           <div className="col">
-            <button type="button"
+            <button type="button" id="clear"
                   class="btn btn-info">
                       <span>C</span>
                   </button>
@@ -136,7 +136,7 @@ export default class Buttons extends Component {
                   </button>
           </div>
           <div className="col-9">
-            <span id="solut" style={solution}></span>
+            <span className="solut" id="display" style={solution}></span>
           </div>
         </div>
       </div>

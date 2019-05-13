@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 
+const caseIn = {
+  textAlign: "center",
+  borderStyle: "solid",
+  borderColor: "#3cb271",
+  padding: "1em",
+  width: "24em",
+  marginBottom: "0.4em"
+}
+
 export default class Buttons extends Component {
   render() {
     return(
-      <div className="container-fluid">
+      <div style={caseIn} className="container-fluid">
         <div className="row">
           <div className="col">
             <span>1</span>

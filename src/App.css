@@ -3,10 +3,27 @@ body {
   text-align: center;
 }
 
+.case-out {
+  width: 26em;
+  padding: 0.1em;
+}
+
+.case-in {
+  padding: 1em;
+  width: 24em;
+}
+
 .btn {
   margin: 0.4em;
 }
 
 .solut {
   margin: 0.4em 0;
+  width: 15em;
+}
+
+@media all and (max-width: 601px) {
+  .solut {
+    width: 12em;
+  }
 }

@@ -6,8 +6,6 @@ const caseIn = {
   textAlign: "center",
   borderStyle: "solid",
   borderColor: "#5d5d5d",
-  padding: "1em",
-  width: "24em",
   marginBottom: "0.4em",
   backgroundColor: "#f3f2e0",
 }
@@ -23,7 +21,7 @@ const solution = {
 export default class Buttons extends Component {
   render() {
     return(
-      <div style={caseIn} className="container-fluid">
+      <div style={caseIn} className="container-fluid case-in">
         <div className="row">
           <div className="col">
             <button type="button" id="one"

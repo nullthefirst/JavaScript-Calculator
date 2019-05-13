@@ -20,23 +20,19 @@ const solution = {
   padding: "1em"
 }
 
-const btn = {
-  margin: "1em"
-}
-
 export default class Buttons extends Component {
   render() {
     return(
       <div style={caseIn} className="container-fluid">
         <div className="row">
           <div className="col">
-            <span style={btn}>1</span>
+            <span >1</span>
           </div>
           <div className="col">
-            <span>2</span>
+            <span >2</span>
           </div>
           <div className="col">
-            <span>3</span>
+            <span >3</span>
           </div>
           <div className="col">
             <span>+</span>
@@ -44,13 +40,13 @@ export default class Buttons extends Component {
         </div>
         <div className="row">
           <div className="col">
-            <span>4</span>
+            <span >4</span>
           </div>
           <div className="col">
-            <span>5</span>
+            <span >5</span>
           </div>
           <div className="col">
-            <span>6</span>
+            <span >6</span>
           </div>
           <div className="col">
             <span>-</span>
@@ -58,13 +54,13 @@ export default class Buttons extends Component {
         </div>
         <div className="row">
           <div className="col">
-            <span>7</span>
+            <span >7</span>
           </div>
           <div className="col">
-            <span>8</span>
+            <span >8</span>
           </div>
           <div className="col">
-            <span>9</span>
+            <span >9</span>
           </div>
           <div className="col">
             <span>&#247;</span>
@@ -72,13 +68,13 @@ export default class Buttons extends Component {
         </div>
         <div className="row">
           <div className="col">
-            <span>0</span>
+            <span id="zero">0</span>
           </div>
           <div className="col-6">
             <span style={solution}></span>
           </div>
           <div className="col">
-            <span>=</span>
+            <span >=</span>
           </div>
         </div>
       </div>

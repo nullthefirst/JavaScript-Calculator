@@ -122,14 +122,20 @@ export default class Buttons extends Component {
                   </button>
           </div>
           <div className="col">
-            <button type="button" id="equals"
-                  class="btn btn-danger">
-                      <span>=</span>
+            <button type="button"
+                  class="btn btn-info">
+                      <span>X</span>
                   </button>
           </div>
         </div>
         <div className="row">
           <div className="col">
+            <button type="button" id="equals"
+                  class="btn btn-danger">
+                      <span>=</span>
+                  </button>
+          </div>
+          <div className="col-9">
             <span id="solut" style={solution}></span>
           </div>
         </div>

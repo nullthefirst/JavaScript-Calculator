@@ -1,6 +1,6 @@
 A project for my freeCodeCamp Front End Libraries certification
 
-# How to use
+# How to set-up
 
 ```
 git clone https://github.com/Usheninte/JavaScript-Calculator.git

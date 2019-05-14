@@ -1,4 +1,6 @@
-# A project for my freeCodeCamp Front End Libraries certification
+A project for my freeCodeCamp Front End Libraries certification
+
+# How to use
 
 ```
 git clone https://github.com/Usheninte/JavaScript-Calculator.git
